@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>OpenAI-SDK</module>
-        <module>DevOps</module>
+        <module>openai-api</module>
+        <module>dev-ops</module>
     </modules>
 
     <properties>
@@ -31,6 +31,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -50,7 +51,7 @@
     </dependencies>
 
     <build>
-        <finalName>openai-sdk</finalName>
+        <finalName>openai-api</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
