@@ -33,4 +33,11 @@ public class AuthController {
         }
     }
 
+    @GetMapping("/success")
+    public ResponseEntity<?> success(){
+
+        return ResponseEntity.ok("test by zeddic");
+
+    }
+
 }
