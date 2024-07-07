@@ -1,0 +1,1 @@
+docker build -f ./Dockerfile -t zeddic352/openai-api .
